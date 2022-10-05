@@ -1,12 +1,20 @@
+:root {
+    --teal: rgb(62, 190, 169);
+    --blue: rgb(36, 78, 163);
+}
+
 * {
+    box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
 }
 
 .header {
-    padding: 20px;
-    background-color:  rgb(62, 190, 169);
-    color: rgb(36, 78, 163);
+    padding: 50px;
+    background-color:  var(--teal);
+    color: var(--blue);
+    /* border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
 }
 
 .header h1 {
@@ -14,10 +22,6 @@
 }
 
 .header h1 span {
-    color: white;
-}
-
-.header h2 {
     color: white;
 }
 
@@ -36,39 +40,64 @@
     margin-left: 20px;
 }
 
-#about-me {
-    display: inline-block;
-    padding: 10px 10px;
-    width: 50%;
+figure {
+    position: relative;
 }
 
-#work {
-    display: inline-block;
-    padding: 10px 10px;
-    width: 50%;
+figure h2 {
+    position: absolute;
+    font-size: 2rem;
+    top: 15px;    
+    right: 15px;
+    color: white;
 }
 
-#contact-me {
-    display: inline-block;
-    padding: 10px 10px;
-    width: 50%;
+figure img {
+    width: 100%;
 }
 
-#contact-me ul {
+.card {
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 2rem;
+    position: absolute;
+    height: 75%;
+    width: 300px;
+    float: left;
+    margin: 0 60px;
+    border-right: 3px solid var(--blue);
+}
+
+.card article {
+    margin: 0 500px;
+}
+
+.card ul {
     display: inline-block;
     padding: 0px;
     list-style-type: none;
 }
 
-#contact-me ul li {
+.card ul li {
     display: inline-block;
     padding: 0px;
     margin: 10px;
     list-style-type: none;
 }
 
-#resume {
-    display: inline-block;
-    padding: 10px 10px;
-    width: 50%;
+#about-me p {
+    margin: 10px;
+}
+
+.articles {
+
+}
+
+#work-links:hover {
+    background-color: var(--blue);
 }
