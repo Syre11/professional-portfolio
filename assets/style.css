@@ -144,8 +144,8 @@ figure img {
     background-size:cover;
     background-repeat: no-repeat;
     border: 5px solid var(--blue);
-    height: 136px;
-    width: 182px;
+    height: 128px;
+    width: 192px;
 }
 
 #brewery-link:hover {
