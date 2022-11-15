@@ -140,11 +140,11 @@ figure img {
 #brewery-link {
     display:inline-flex;
     font-size: 1.5rem;
-    background-image: url(./images/03_22_BIE_Ukraine_Beer_HERO_955452498_1920x1280.jpg);
+    background-image: url(./images/two-mugs-beer-wheat-wooden-table-52155843.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border: 5px solid var(--blue);
-    height: 128px;
+    height: 136px;
     width: 192px;
 }
 
