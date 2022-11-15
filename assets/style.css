@@ -137,6 +137,21 @@ figure img {
     opacity: 0.5;
 }
 
+#brewery-link {
+    display:inline-flex;
+    font-size: 1.5rem;
+    background-image: url(./images/03_22_BIE_Ukraine_Beer_HERO_955452498_1920x1280.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 5px solid var(--blue);
+    height: 136px;
+    width: 182px;
+}
+
+#brewery-link:hover {
+    opacity: 0.5;
+}
+
 @media screen and (max-width: 768px) {
     .card h2 {
         flex-direction: column;
