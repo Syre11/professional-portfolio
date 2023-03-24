@@ -155,6 +155,10 @@ figure img {
     background-image: url(./images/hotel-cali.jpg);
 }
 
+#money-masterminds-link {
+    background-image: url(./images/money-mastermind.jpg);
+}
+
 /* 
 #study-link {
     display: inline-flex;
